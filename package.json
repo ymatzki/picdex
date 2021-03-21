@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "react": "^17.0.1",
+    "redux": "^4.0.5",
+    "typescript": "^4.2.3"
+  },
+  "name": "picdex",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:ymatzki/picdex.git",
+  "author": "Yusaku Matsuki <ymatzki@gmail.com>",
+  "license": "MIT"
+}
