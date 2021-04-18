@@ -2237,6 +2237,11 @@
   dependencies:
     source-map "^0.6.1"
 
+"@types/uikit@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@types/uikit/-/uikit-3.3.1.tgz#97c817d803aa7c3b4d0c7e8c2b50177c415845b8"
+  integrity sha512-8+Ejdntc9yMBkSyp1OhQv/eZotscum4EnZ53B07nqZS9H2js2CTwbBSMgjHc/EOJAntF1T4FDLJ4druM/wNhGA==
+
 "@types/webpack-sources@*":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@types/webpack-sources/-/webpack-sources-2.1.0.tgz#8882b0bd62d1e0ce62f183d0d01b72e6e82e8c10"
@@ -11531,6 +11536,11 @@ typescript@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
   integrity sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==
+
+uikit@^3.6.19:
+  version "3.6.19"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.6.19.tgz#ae39e191523b19a311ebc2f05b8b7334360e806e"
+  integrity sha512-Lw+1/3KNiYcZlWCVhva1/kN/GtjRzMt4vt8Cj73uZ66qDK7l68/ppFScArooPARnieVJG3CDbkq2UMV0YnXhnQ==
 
 unbox-primitive@^1.0.0:
   version "1.0.0"

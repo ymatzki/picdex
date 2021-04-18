@@ -1,7 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import { Counter } from "./features/counter/Counter";
+import "./App.css";
+import { Speak } from "./modules/Speak";
 
 function App() {
   return (
@@ -9,7 +10,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
-        <p>
+        <p
+          onClick={() => {
+            Speak("save to reload.");
+          }}
+        >
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <span>
