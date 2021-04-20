@@ -3,14 +3,22 @@ import logo from "./logo.svg";
 import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import { Speak } from "./modules/Speak";
-import japan from "./images/a23.gif";
+
+function importAll(r: __WebpackModuleApi.RequireContext) {
+  let images = new Map<string, any>();
+  r.keys().map((value) => {
+    images.set(value, r(value));
+  });
+  return images;
+}
 
 function App() {
+  const images = importAll(require.context("./images", false, /\.(gif)$/));
   return (
     <input
       type="image"
       id="button"
-      src={japan}
+      src={images.get('./a11.gif').default}
       onClick={() => {
         Speak("Japan");
       }}
