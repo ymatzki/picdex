@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import { Speak } from "./modules/Speak";
+import Countries from "./data/ja_countries.json";
 
 function importAll(r: __WebpackModuleApi.RequireContext) {
   let images = new Map<string, any>();
@@ -15,14 +16,21 @@ function importAll(r: __WebpackModuleApi.RequireContext) {
 function App() {
   const images = importAll(require.context("./images", false, /\.(gif)$/));
   return (
-    <input
-      type="image"
-      id="button"
-      src={images.get("./a11.gif")}
-      onClick={() => {
-        Speak("Japan");
-      }}
-    ></input>
+    <>
+      {Countries.map((value) => {
+        return (
+          <input
+            key={value.images}
+            type="image"
+            id="button"
+            src={images.get("./" + value.images)}
+            onClick={() => {
+              Speak(value.name, "ja");
+            }}
+          ></input>
+        );
+      })}
+    </>
   );
 }
 
