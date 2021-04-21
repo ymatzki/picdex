@@ -7,7 +7,7 @@ import { Speak } from "./modules/Speak";
 function importAll(r: __WebpackModuleApi.RequireContext) {
   let images = new Map<string, any>();
   r.keys().map((value) => {
-    images.set(value, r(value));
+    images.set(value, r(value).default);
   });
   return images;
 }
@@ -18,7 +18,7 @@ function App() {
     <input
       type="image"
       id="button"
-      src={images.get('./a11.gif').default}
+      src={images.get("./a11.gif")}
       onClick={() => {
         Speak("Japan");
       }}
