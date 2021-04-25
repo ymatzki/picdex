@@ -19,8 +19,12 @@ function importAll(r: __WebpackModuleApi.RequireContext) {
 function App() {
   const images = importAll(require.context("./images", false, /\.(gif)$/));
   return (
-    <>
-      <h1 className="uk-heading-divider">picdex</h1>
+    <div className="uk-text-muted">
+      <nav className="uk-navbar-container" data-uk-navbar>
+        <div className="uk-navbar-left">
+          <h1 className="uk-heading-small">picdex</h1>
+        </div>
+      </nav>
       <ul
         className="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s"
         data-uk-sortable="handle: .uk-card"
@@ -40,11 +44,12 @@ function App() {
                   Speak(value.name, "ja");
                 }}
               ></input>
+              <div>{value.name}</div>
             </div>
           );
         })}
       </ul>
-    </>
+    </div>
   );
 }
 
