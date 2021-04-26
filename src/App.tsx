@@ -20,13 +20,11 @@ function App() {
   const images = importAll(require.context("./images", false, /\.(gif)$/));
   return (
     <div className="uk-text-muted">
-      <nav className="uk-container uk-container-expand">
-        <div className="uk-navbar">
-          <div className="uk-navbar-left">
-            <h1 className="uk-heading-small uk-logo">Picdex</h1>
-          </div>
-        </div>
-      </nav>
+      <div className="uk-panel uk-padding uk-background-muted">
+        <a className="uk-logo uk-text-emphasis" href="">
+          Picdex
+        </a>
+      </div>
       <div className="uk-container uk-container-expand">
         <ul
           className="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s"
