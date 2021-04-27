@@ -2,8 +2,6 @@ import React from "react";
 import "uikit";
 import "uikit/dist/css/uikit.min.css";
 
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import { Speak } from "./modules/Speak";
 import Countries from "./data/ja_countries.json";
@@ -18,6 +16,7 @@ function importAll(r: __WebpackModuleApi.RequireContext) {
 
 function App() {
   const images = importAll(require.context("./images", false, /\.(gif)$/));
+  const countries = Countries.sort((a, b) => a.name.localeCompare(b.name));
   return (
     <div className="uk-text-muted">
       <div className="uk-panel uk-padding uk-background-muted">
@@ -31,7 +30,7 @@ function App() {
           data-uk-sortable="handle: .uk-card"
           data-uk-grid
         >
-          {Countries.map((value) => {
+          {countries.map((value) => {
             return (
               <div
                 className="uk-card uk-card-default uk-card-body uk-text-center"
