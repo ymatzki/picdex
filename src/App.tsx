@@ -45,12 +45,12 @@ function App() {
                   src={images.get("./" + value.images)}
                 ></input>
                 <div>{value.name}</div>
-                <span
+                <a
                   data-uk-icon="play"
                   onClick={() => {
                     Speak(value.name, "ja");
                   }}
-                ></span>
+                ></a>
               </div>
             );
           })}
