@@ -7,8 +7,6 @@ import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
 UIkit.use(Icons);
 
-declare module "uikit/dist/js/uikit-icons";
-
 function importAll(r: __WebpackModuleApi.RequireContext) {
   let images = new Map<string, any>();
   r.keys().map((value) => {
@@ -22,15 +20,37 @@ function App() {
   const countries = Countries.sort((a, b) => a.name.localeCompare(b.name));
   return (
     <div className="uk-text-muted">
-      <div className="uk-panel uk-padding uk-background-muted">
-        <a className="uk-logo uk-text-emphasis" href="">
-          Picdex
-        </a>
+      <div className="uk-navbar-container" data-uk-navbar>
+        <div className="uk-navbar-left">
+          <div className="uk-panel uk-padding uk-background-muted">
+            <a className="uk-logo uk-text-emphasis" href="">
+              Picdex
+            </a>
+          </div>
+        </div>
+        <div className="uk-navbar-right">
+          <div className="uk-panel uk-padding uk-background-muted">
+            <ul className="uk-navbar-nav">
+              <li>
+                <a data-uk-icon="icon:world; ratio: 2" />
+                <div className="uk-navbar-dropdown">
+                  <ul className="uk-nav uk-navbar-dropdown-nav">
+                    <li>
+                      <a href="/">English</a>
+                    </li>
+                    <li>
+                      <a href="/ja">日本語</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div className="uk-container uk-container-expand">
-        <ul
-          className="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s"
-          data-uk-sortable="handle: .uk-card"
+        <div
+          className="uk-grid-small uk-child-width-1-2 uk-child-width-1-5@s"
           data-uk-grid
         >
           {countries.map((value) => {
@@ -43,18 +63,21 @@ function App() {
                   type="image"
                   id="button"
                   src={images.get("./" + value.images)}
-                ></input>
-                <div>{value.name}</div>
-                <a
-                  data-uk-icon="play"
                   onClick={() => {
                     Speak(value.name, "ja");
                   }}
-                ></a>
+                ></input>
+                <div>{value.name}</div>
+                <a
+                  data-uk-icon="icon:play; ratio: 2"
+                  onClick={() => {
+                    Speak(value.name, "ja");
+                  }}
+                />
               </div>
             );
           })}
-        </ul>
+        </div>
       </div>
     </div>
   );
