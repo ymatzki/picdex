@@ -1,10 +1,13 @@
 import React from "react";
-import "uikit";
 import "uikit/dist/css/uikit.min.css";
-
 import "./App.css";
 import { Speak } from "./modules/Speak";
 import Countries from "./data/ja_countries.json";
+import UIkit from "uikit";
+import Icons from "uikit/dist/js/uikit-icons";
+UIkit.use(Icons);
+
+declare module "uikit/dist/js/uikit-icons";
 
 function importAll(r: __WebpackModuleApi.RequireContext) {
   let images = new Map<string, any>();
@@ -40,11 +43,14 @@ function App() {
                   type="image"
                   id="button"
                   src={images.get("./" + value.images)}
+                ></input>
+                <div>{value.name}</div>
+                <span
+                  data-uk-icon="play"
                   onClick={() => {
                     Speak(value.name, "ja");
                   }}
-                ></input>
-                <div>{value.name}</div>
+                ></span>
               </div>
             );
           })}
