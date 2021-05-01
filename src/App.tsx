@@ -43,7 +43,7 @@ function App() {
             <div className="uk-panel uk-padding uk-background-muted">
               <ul className="uk-navbar-nav">
                 <li>
-                  <a data-uk-icon="icon:world; ratio: 2" />
+                  <a data-uk-icon="icon:world; ratio: 1.5" />
                   <div className="uk-navbar-dropdown">
                     <ul className="uk-nav uk-navbar-dropdown-nav">
                       <li>
@@ -81,7 +81,7 @@ function App() {
                   ></input>
                   <div>{value.name}</div>
                   <a
-                    data-uk-icon="icon:play; ratio: 2"
+                    data-uk-icon="icon:play; ratio: 1.5"
                     onClick={() => {
                       Speak(value.name, "ja");
                     }}
