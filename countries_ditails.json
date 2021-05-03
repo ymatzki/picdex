@@ -1,0 +1,542 @@
+[
+  {
+    "name": "アルジェリア民主人民共和国",
+    "en": "People' s Democratic Republic of Algeria",
+    "capital": "アルジェ",
+    "independent": "1962年",
+    "language": "アラビア語、ベルベル語、フランス語",
+    "area": "2,380",
+    "population": "4,220",
+    "currency": "アルジェリアン・ディナール"
+  },
+  {
+    "name": "アンゴラ共和国",
+    "en": "Republic of Angola",
+    "capital": "ルアンダ",
+    "independent": "1975年",
+    "language": "ポルトガル語、ウンブンドゥ語",
+    "area": "1,247",
+    "population": "3,080",
+    "currency": "クワンザ"
+  },
+  {
+    "name": "ウガンダ共和国",
+    "en": "Republic of Uganda",
+    "capital": "カンパラ",
+    "independent": "1962年",
+    "language": "英語、スワヒリ語、ルガンダ語",
+    "area": "241",
+    "population": "4,272",
+    "currency": "ウガンダ・シリング"
+  },
+  {
+    "name": "エジプト・アラブ共和国",
+    "en": "Arab Republic of Egypt",
+    "capital": "カイロ",
+    "independent": "-",
+    "language": "アラビア語",
+    "area": "1,000",
+    "population": "9,842",
+    "currency": "エジプト・ポンド"
+  },
+  {
+    "name": "エスワティニ王国",
+    "en": "Kingdom of Eswatini",
+    "capital": "ムババーネ",
+    "independent": "1968年",
+    "language": "英語、スワティ語",
+    "area": "17",
+    "population": "113",
+    "currency": "リランゲーニ"
+  },
+  {
+    "name": "エチオピア連邦民主共和国",
+    "en": "Federal Democratic Republic of Ethiopia",
+    "capital": "アディスアベバ",
+    "independent": "-",
+    "language": "アムハラ語、オロモ語、英語",
+    "area": "1,097",
+    "population": "11,207",
+    "currency": "ブル"
+  },
+  {
+    "name": "エリトリア国",
+    "en": "State of Eritrea",
+    "capital": "アスマラ",
+    "independent": "1993年",
+    "language": "ティグリニャ語、アラビア語",
+    "area": "118",
+    "population": "550",
+    "currency": "ナクファ"
+  },
+  {
+    "name": "ガーナ共和国",
+    "en": "Republic of Ghana",
+    "capital": "アクラ",
+    "independent": "1957年",
+    "language": "英語",
+    "area": "239",
+    "population": "3,042",
+    "currency": "ガーナセディ"
+  },
+  {
+    "name": "カーボベルデ共和国",
+    "en": "Republic of Cabo Verde",
+    "capital": "プライア",
+    "independent": "1975年",
+    "language": "ポルトガル語、クレオール語",
+    "area": "4",
+    "population": "55",
+    "currency": "カーボベルデ・エスクード"
+  },
+  {
+    "name": "ガボン共和国",
+    "en": "Gabonese Republic",
+    "capital": "リーブルビル",
+    "independent": "1960年",
+    "language": "フランス語",
+    "area": "268",
+    "population": "217",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "カメルーン共和国",
+    "en": "Republic of Cameroon",
+    "capital": "ヤウンデ",
+    "independent": "1960年",
+    "language": "フランス語、英語",
+    "area": "475",
+    "population": "2,587",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ガンビア共和国",
+    "en": "Republic of The Gambia",
+    "capital": "バンジュール",
+    "independent": "1965年",
+    "language": "英語、マンディンゴ語、ウォロフ語、フラ語",
+    "area": "11",
+    "population": "228",
+    "currency": "ダラシ"
+  },
+  {
+    "name": "ギニア共和国",
+    "en": "Republic of Guinea",
+    "capital": "コナクリ",
+    "independent": "1958年",
+    "language": "フランス語",
+    "area": "246",
+    "population": "1,277",
+    "currency": "ギニア・フラン"
+  },
+  {
+    "name": "ギニアビサウ共和国",
+    "en": "Republic of Guinea-Bissau",
+    "capital": "ビサウ",
+    "independent": "1973年",
+    "language": "ポルトガル語",
+    "area": "36",
+    "population": "192",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ケニア共和国",
+    "en": "Republic of Kenya",
+    "capital": "ナイロビ",
+    "independent": "1963年",
+    "language": "スワヒリ語、英語",
+    "area": "583",
+    "population": "5,257",
+    "currency": "ケニア・シリング"
+  },
+  {
+    "name": "コートジボワール共和国",
+    "en": "Republic of Cote d'Ivoire",
+    "capital": "ヤムスクロ",
+    "independent": "1960年",
+    "language": "フランス語",
+    "area": "322",
+    "population": "2,507",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "コモロ連合",
+    "en": "Union of Comoros",
+    "capital": "モロニ",
+    "independent": "1975年",
+    "language": "フランス語、アラビア語、コモロ語",
+    "area": "2",
+    "population": "85.1",
+    "currency": "コモロ・フラン"
+  },
+  {
+    "name": "コンゴ共和国",
+    "en": "Republic of Congo",
+    "capital": "ブラザビル",
+    "independent": "1960年",
+    "language": "フランス語、リンガラ語、キトゥバ語",
+    "area": "342",
+    "population": "538",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "コンゴ民主共和国",
+    "en": "Democratic Republic of the Congo",
+    "capital": "キンシャサ",
+    "independent": "1960年",
+    "language": "フランス語、スワヒリ語、リンガラ語、チルバ語、キコンゴ語",
+    "area": "2,345",
+    "population": "8,679",
+    "currency": "コンゴ・フラン"
+  },
+  {
+    "name": "サントメ・プリンシペ民主共和国",
+    "en": "Democratic Republic of Sao Tome and Principe",
+    "capital": "サントメ",
+    "independent": "1975年",
+    "language": "ポルトガル語",
+    "area": "1",
+    "population": "21",
+    "currency": "ドブラ"
+  },
+  {
+    "name": "ザンビア共和国",
+    "en": "Republic of Zambia",
+    "capital": "ルサカ",
+    "independent": "1964年",
+    "language": "英語、ベンバ語、ニャンジァ語、トンガ語",
+    "area": "753",
+    "population": "1,786",
+    "currency": "ザンビア・クワチャ"
+  },
+  {
+    "name": "シエラレオネ共和国",
+    "en": "Republic of Sierra Leone",
+    "capital": "フリータウン",
+    "independent": "1961年",
+    "language": "英語、クリオ語、メンデ語、テムネ語",
+    "area": "72",
+    "population": "781",
+    "currency": "レオン"
+  },
+  {
+    "name": "ジブチ共和国",
+    "en": "Republic of Djibouti",
+    "capital": "ジブチ",
+    "independent": "1977年",
+    "language": "アラビア語、フランス語",
+    "area": "23",
+    "population": "97.4",
+    "currency": "ジブチ・フラン"
+  },
+  {
+    "name": "ジンバブエ共和国",
+    "en": "Republic of Zimbabwe",
+    "capital": "ハラレ",
+    "independent": "1980年",
+    "language": "英語、ショナ語、ンデベレ語",
+    "area": "386",
+    "population": "1,444",
+    "currency": "ジンバブエ・ドル（注2）"
+  },
+  {
+    "name": "スーダン共和国",
+    "en": "The Republic of the Sudan",
+    "capital": "ハルツーム",
+    "independent": "1956年",
+    "language": "アラビア語、英語",
+    "area": "1,880",
+    "population": "4,281",
+    "currency": "スーダン・ポンド"
+  },
+  {
+    "name": "赤道ギニア共和国",
+    "en": "Republic of Equatorial Guinea",
+    "capital": "マラボ",
+    "independent": "1968年",
+    "language": "スペイン語、フランス語、ポルトガル語、ファン語、ブビ語",
+    "area": "28",
+    "population": "131",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "セーシェル共和国",
+    "en": "Republic of Seychelles",
+    "capital": "ビクトリア",
+    "independent": "1976年",
+    "language": "英語、フランス語、クレオール語",
+    "area": "0.5",
+    "population": "9.8",
+    "currency": "セーシェル・ルピー"
+  },
+  {
+    "name": "セネガル共和国",
+    "en": "Republic of Senegal",
+    "capital": "ダカール",
+    "independent": "1960年",
+    "language": "フランス語、ウォロフ語",
+    "area": "197",
+    "population": "1,630",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ソマリア連邦共和国",
+    "en": "Federal Republic of Somalia",
+    "capital": "モガディシュ",
+    "independent": "1960年",
+    "language": "ソマリ語、アラビア語",
+    "area": "638",
+    "population": "1,400",
+    "currency": "ソマリア・シリング"
+  },
+  {
+    "name": "タンザニア連合共和国",
+    "en": "United Republic of Tanzania",
+    "capital": "ドドマ",
+    "independent": "1961年",
+    "language": "スワヒリ語、英語",
+    "area": "945",
+    "population": "5,632",
+    "currency": "タンザニア・シリング"
+  },
+  {
+    "name": "チャド共和国",
+    "en": "Republic of Chad",
+    "capital": "ンジャメナ",
+    "independent": "1960年",
+    "language": "フランス語、アラビア語",
+    "area": "1,284",
+    "population": "1,548",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "中央アフリカ共和国",
+    "en": "Central African Republic",
+    "capital": "バンギ",
+    "independent": "1960年",
+    "language": "フランス語、サンゴ語、",
+    "area": "623",
+    "population": "475",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "チュニジア共和国",
+    "en": "Republic of Tunisia",
+    "capital": "チュニス",
+    "independent": "1956年",
+    "language": "アラビア語、フランス語",
+    "area": "164",
+    "population": "1,169",
+    "currency": "チェニジア・ディナール"
+  },
+  {
+    "name": "トーゴ共和国",
+    "en": "Republic of Togo",
+    "capital": "ロメ",
+    "independent": "1960年",
+    "language": "フランス語、エヴェ語、カビエ語",
+    "area": "54",
+    "population": "808",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ナイジェリア連邦共和国",
+    "en": "Federal Republic of Nigeria",
+    "capital": "アブジャ",
+    "independent": "1960年",
+    "language": "英語",
+    "area": "924",
+    "population": "20,096",
+    "currency": "ナイラ"
+  },
+  {
+    "name": "ナミビア共和国",
+    "en": "Republic of Namibia",
+    "capital": "ウィントフック",
+    "independent": "1990年",
+    "language": "英語、アフリカーンス語、ドイツ語",
+    "area": "824",
+    "population": "244.8",
+    "currency": "ナミビア・ドル"
+  },
+  {
+    "name": "ニジェール共和国",
+    "en": "Republic of Niger",
+    "capital": "ニアメ",
+    "independent": "1960年",
+    "language": "フランス語、ハウサ語",
+    "area": "1,267",
+    "population": "2,148",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ブルキナファソ",
+    "en": "Burkina Faso",
+    "capital": "ワガドゥグ",
+    "independent": "1960年",
+    "language": "フランス語、モシ語、ディウラ語、グルマンチェ語",
+    "area": "274",
+    "population": "2,032",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ブルンジ共和国",
+    "en": "Republic of Burundi",
+    "capital": "ブジュンブラ",
+    "independent": "1962年",
+    "language": "フランス語、キルンジ語",
+    "area": "28",
+    "population": "1,117",
+    "currency": "ブルンジ・フラン"
+  },
+  {
+    "name": "ベナン共和国",
+    "en": "Republic of Benin",
+    "capital": "ポルトノボ",
+    "independent": "1960年",
+    "language": "フランス語",
+    "area": "113",
+    "population": "1,149",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ボツワナ共和国",
+    "en": "Republic of Botswana",
+    "capital": "ハボロネ",
+    "independent": "1966年",
+    "language": "英語、ツワナ語",
+    "area": "567",
+    "population": "230",
+    "currency": "プラ"
+  },
+  {
+    "name": "マダガスカル共和国",
+    "en": "Republic of Madagascar",
+    "capital": "アンタナナリボ",
+    "independent": "1960年",
+    "language": "マダガスカル語、フランス語",
+    "area": "587",
+    "population": "2,697",
+    "currency": "アリアリ"
+  },
+  {
+    "name": "マラウイ共和国",
+    "en": "Republic of Malawi",
+    "capital": "リロングウェ",
+    "independent": "1964年",
+    "language": "チェワ語、英語",
+    "area": "118",
+    "population": "1,862",
+    "currency": "マラウイ・クワチャ"
+  },
+  {
+    "name": "マリ共和国",
+    "en": "Republic of Mali",
+    "capital": "バマコ",
+    "independent": "1960年",
+    "language": "フランス語、バンバラ語、フルフルデ語、マリンケ語",
+    "area": "1,240",
+    "population": "1,966",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "南アフリカ共和国",
+    "en": "Republic of South Africa",
+    "capital": "プレトリア",
+    "independent": "-",
+    "language": "英語、アフリカーンス語、バンツー諸語の計11が公用語",
+    "area": "1,220",
+    "population": "5,778",
+    "currency": "ランド"
+  },
+  {
+    "name": "南スーダン共和国",
+    "en": "The Republic of South Sudan",
+    "capital": "ジュバ",
+    "independent": "2011年",
+    "language": "英語、アラビア語",
+    "area": "640",
+    "population": "1,258",
+    "currency": "南スーダン・ポンド"
+  },
+  {
+    "name": "モザンビーク共和国",
+    "en": "Republic of Mozambique",
+    "capital": "マプト",
+    "independent": "1975年",
+    "language": "ポルトガル語",
+    "area": "799",
+    "population": "3,036",
+    "currency": "メティカル"
+  },
+  {
+    "name": "モーリシャス共和国",
+    "en": "Republic of Mauritius",
+    "capital": "ポートルイス",
+    "independent": "1968年",
+    "language": "英語、フランス語、クレオール語",
+    "area": "2",
+    "population": "126.5",
+    "currency": "モーリシャス・ルピー"
+  },
+  {
+    "name": "モーリタニア・イスラム共和国",
+    "en": "Islamic Republic of Mauritania",
+    "capital": "ヌアクショット",
+    "independent": "1960年",
+    "language": "アラビア語、ブラール語、ソニンケ語、ウォロフ語、フランス語",
+    "area": "1,030",
+    "population": "453",
+    "currency": "ウギア"
+  },
+  {
+    "name": "モロッコ王国",
+    "en": "Kingdom of Morocco",
+    "capital": "ラバト",
+    "independent": "1956年",
+    "language": "アラビア語、ベルベル語、フランス語",
+    "area": "446",
+    "population": "3,603",
+    "currency": "モロッコ・ディルハム"
+  },
+  {
+    "name": "リビア",
+    "en": "Libya",
+    "capital": "トリポリ",
+    "independent": "1951年",
+    "language": "アラビア語",
+    "area": "1,760",
+    "population": "668",
+    "currency": "リビア・ディナール"
+  },
+  {
+    "name": "リベリア共和国",
+    "en": "Republic of Liberia",
+    "capital": "モンロビア",
+    "independent": "-",
+    "language": "英語",
+    "area": "111",
+    "population": "482",
+    "currency": "リベリア・ドル"
+  },
+  {
+    "name": "ルワンダ共和国",
+    "en": "Republic of Rwanda",
+    "capital": "キガリ",
+    "independent": "1962年",
+    "language": "ルワンダ語、英語、フランス語、スワヒリ語",
+    "area": "26",
+    "population": "1,263",
+    "currency": "ルワンダ・フラン"
+  },
+  {
+    "name": "レソト王国",
+    "en": "Kingdom of Lesotho",
+    "capital": "マセル",
+    "independent": "1966年",
+    "language": "英語、ソト語",
+    "area": "30",
+    "population": "210",
+    "currency": "ロチ"
+  }
+]

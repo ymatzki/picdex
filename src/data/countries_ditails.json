@@ -1,0 +1,1953 @@
+[
+  {
+    "name": "インド",
+    "en": "India",
+    "capital": "ニューデリー",
+    "independent": "1947年",
+    "language": "ヒンディー語(連邦公用語）、他憲法公認語21",
+    "area": "3,287",
+    "population": "136,641",
+    "currency": "ルピー"
+  },
+  {
+    "name": "インドネシア共和国",
+    "en": "Republic of Indonesia",
+    "capital": "ジャカルタ",
+    "independent": "1945年",
+    "language": "インドネシア語",
+    "area": "1,920",
+    "population": "26,700",
+    "currency": "ルピア"
+  },
+  {
+    "name": "カンボジア王国",
+    "en": "Kingdom of Cambodia",
+    "capital": "プノンペン",
+    "independent": "1953年",
+    "language": "カンボジア語",
+    "area": "181",
+    "population": "1,630",
+    "currency": "リエル"
+  },
+  {
+    "name": "シンガポール共和国",
+    "en": "Republic of Singapore",
+    "capital": "なし",
+    "independent": "1965年",
+    "language": "マレー語、英語、中国語、タミル語",
+    "area": "0.7",
+    "population": "564",
+    "currency": "シンガポール・ドル"
+  },
+  {
+    "name": "スリランカ民主社会主義共和国",
+    "en": "Democratic Socialist Republic of Sri Lanka",
+    "capital": "スリ・ジャヤワルダナプラ・コッテ",
+    "independent": "1948年",
+    "language": "シンハラ語、タミル語、英語",
+    "area": "66",
+    "population": "2,103",
+    "currency": "スリランカ・ルピー"
+  },
+  {
+    "name": "タイ王国",
+    "en": "Kingdom of Thailand",
+    "capital": "バンコク",
+    "independent": "-",
+    "language": "タイ語",
+    "area": "514",
+    "population": "6,641",
+    "currency": "バーツ"
+  },
+  {
+    "name": "大韓民国",
+    "en": "Republic of Korea",
+    "capital": "ソウル",
+    "independent": "1948年",
+    "language": "韓国語",
+    "area": "100",
+    "population": "5,178",
+    "currency": "ウォン"
+  },
+  {
+    "name": "中華人民共和国",
+    "en": "People's Republic of China",
+    "capital": "北京（ペキン）",
+    "independent": "-",
+    "language": "漢語（中国語）",
+    "area": "9,600",
+    "population": "約140,000",
+    "currency": "人民元"
+  },
+  {
+    "name": "ネパール連邦民主共和国",
+    "en": "Federal Democratic Republic of Nepal",
+    "capital": "カトマンズ",
+    "independent": "-",
+    "language": "ネパール語",
+    "area": "147",
+    "population": "2,970",
+    "currency": "ネパール・ルピー"
+  },
+  {
+    "name": "パキスタン・イスラム共和国",
+    "en": "Islamic Republic of Pakistan",
+    "capital": "イスラマバード",
+    "independent": "1947年",
+    "language": "ウルドゥー語、英語",
+    "area": "796",
+    "population": "20,777",
+    "currency": "パキスタン・ルピー"
+  },
+  {
+    "name": "バングラデシュ人民共和国",
+    "en": "People's Republic of Bangladesh",
+    "capital": "ダッカ",
+    "independent": "1971年",
+    "language": "ベンガル語",
+    "area": "147",
+    "population": "16,555",
+    "currency": "タカ"
+  },
+  {
+    "name": "東ティモール民主共和国",
+    "en": "The Democratic Republic of Timor-Leste",
+    "capital": "ディリ",
+    "independent": "2002年",
+    "language": "テトゥン語、ポルトガル語、インドネシア語、英語",
+    "area": "15",
+    "population": "126.1",
+    "currency": "米ドル"
+  },
+  {
+    "name": "フィリピン共和国",
+    "en": "Republic of the Philippines",
+    "capital": "マニラ",
+    "independent": "1946年",
+    "language": "フィリピノ語、英語",
+    "area": "299",
+    "population": "10,098",
+    "currency": "ペソ"
+  },
+  {
+    "name": "ブータン王国",
+    "en": "Kingdom of Bhutan",
+    "capital": "ティンプー",
+    "independent": "-",
+    "language": "ゾンカ語",
+    "area": "38",
+    "population": "75.4",
+    "currency": "ニュルタム"
+  },
+  {
+    "name": "ブルネイ・ダルサラーム国",
+    "en": "Brunei Darussalam",
+    "capital": "バンダル・スリ・ブガワン",
+    "independent": "1984年",
+    "language": "マレー語",
+    "area": "6",
+    "population": "42.1",
+    "currency": "ブルネイ・ドル"
+  },
+  {
+    "name": "ベトナム社会主義共和国",
+    "en": "Socialist Republic of Viet Nam",
+    "capital": "ハノイ",
+    "independent": "-",
+    "language": "ベトナム語",
+    "area": "329",
+    "population": "9,762",
+    "currency": "ドン"
+  },
+  {
+    "name": "マレーシア",
+    "en": "Malaysia",
+    "capital": "クアラルンプール",
+    "independent": "1957年",
+    "language": "マレー語、中国語、タミル語、英語",
+    "area": "330",
+    "population": "3,200",
+    "currency": "リンギット"
+  },
+  {
+    "name": "ミャンマー連邦共和国",
+    "en": "Republic of the Union of Myanmar",
+    "capital": "ネーピードー",
+    "independent": "1948年",
+    "language": "ミャンマー語",
+    "area": "680",
+    "population": "5,141",
+    "currency": "チャット"
+  },
+  {
+    "name": "モルディブ共和国",
+    "en": "Republic of Maldives",
+    "capital": "マレ",
+    "independent": "1965年",
+    "language": "ディベヒ語",
+    "area": "0.3",
+    "population": "53.4",
+    "currency": "ルフィア"
+  },
+  {
+    "name": "モンゴル国",
+    "en": "Mongolia",
+    "capital": "ウランバートル",
+    "independent": "-",
+    "language": "モンゴル語、カザフ語",
+    "area": "1,564",
+    "population": "329.7",
+    "currency": "トグログ"
+  },
+  {
+    "name": "ラオス人民民主共和国",
+    "en": "Lao People's Democratic Republic",
+    "capital": "ビエンチャン",
+    "independent": "1953年",
+    "language": "ラオス語",
+    "area": "240",
+    "population": "701",
+    "currency": "キープ"
+  },
+
+  {
+    "name": "アフガニスタン・イスラム共和国",
+    "en": "Islamic Republic of Afghanistan",
+    "capital": "カブール",
+    "independent": "－",
+    "language": "ダリー語、パシュトー語",
+    "area": "652",
+    "population": "3,890",
+    "currency": "アフガニー"
+  },
+  {
+    "name": "アラブ首長国連邦",
+    "en": "United Arab Emirates",
+    "capital": "アブダビ",
+    "independent": "1971年",
+    "language": "アラビア語",
+    "area": "84",
+    "population": "977",
+    "currency": "ディルハム"
+  },
+  {
+    "name": "イエメン共和国",
+    "en": "Republic of Yemen",
+    "capital": "サヌア",
+    "independent": "1990年",
+    "language": "アラビア語",
+    "area": "555",
+    "population": "2,892",
+    "currency": "イエメン・リアル"
+  },
+  {
+    "name": "イスラエル国",
+    "en": "State of Israel",
+    "capital": "エルサレム（注1）",
+    "independent": "1948年",
+    "language": "ヘブライ語、アラビア語",
+    "area": "22（注2）",
+    "population": "923",
+    "currency": "新シェケル"
+  },
+  {
+    "name": "イラク共和国",
+    "en": "Republic of Iraq",
+    "capital": "バグダッド",
+    "independent": "－",
+    "language": "アラビア語、クルド語",
+    "area": "438",
+    "population": "3,887",
+    "currency": "イラク・ディナール"
+  },
+  {
+    "name": "イラン・イスラム共和国",
+    "en": "Islamic Republic of Iran",
+    "capital": "テヘラン",
+    "independent": "－",
+    "language": "ペルシャ語、トルコ語、クルド語",
+    "area": "1,648",
+    "population": "8,280",
+    "currency": "リアル"
+  },
+  {
+    "name": "オマーン国",
+    "en": "Sultanate of Oman",
+    "capital": "マスカット",
+    "independent": "－",
+    "language": "アラビア語、英語",
+    "area": "310",
+    "population": "448",
+    "currency": "オマーン・リアル"
+  },
+  {
+    "name": "カタール国",
+    "en": "State of Qatar",
+    "capital": "ドーハ",
+    "independent": "1971年",
+    "language": "アラビア語",
+    "area": "11",
+    "population": "280",
+    "currency": "カタール・リヤル"
+  },
+  {
+    "name": "クウェート国",
+    "en": "State of Kuwait",
+    "capital": "クウェート",
+    "independent": "1961年",
+    "language": "アラビア語",
+    "area": "18",
+    "population": "467",
+    "currency": "クウェート・ディナール"
+  },
+  {
+    "name": "サウジアラビア王国",
+    "en": "Kingdom of Saudi Arabia",
+    "capital": "リヤド",
+    "independent": "－",
+    "language": "アラビア語",
+    "area": "2,150",
+    "population": "3,370",
+    "currency": "サウジアラビア・リヤル"
+  },
+  {
+    "name": "シリア・アラブ共和国",
+    "en": "Syrian Arab Republic",
+    "capital": "ダマスカス",
+    "independent": "1946年",
+    "language": "アラビア語",
+    "area": "185",
+    "population": "1,939",
+    "currency": "シリア・ポンド"
+  },
+  {
+    "name": "トルコ共和国",
+    "en": "Republic of Turkey",
+    "capital": "アンカラ",
+    "independent": "－",
+    "language": "トルコ語",
+    "area": "781",
+    "population": "8,315",
+    "currency": "トルコ・リラ"
+  },
+  {
+    "name": "バーレーン王国",
+    "en": "Kingdom of Bahrain",
+    "capital": "マナーマ",
+    "independent": "1971年",
+    "language": "アラビア語",
+    "area": "0.8",
+    "population": "150.3",
+    "currency": "バーレーン・ディナール"
+  },
+  {
+    "name": "ヨルダン",
+    "en": "Jordan",
+    "capital": "アンマン",
+    "independent": "1946年",
+    "language": "アラビア語、英語",
+    "area": "89",
+    "population": "995.6",
+    "currency": "ヨルダン・ディナール"
+  },
+  {
+    "name": "レバノン共和国",
+    "en": "Lebanese Republic",
+    "capital": "ベイルート",
+    "independent": "1943年",
+    "language": "アラビア語、フランス語、英語",
+    "area": "10",
+    "population": "610",
+    "currency": "レバノン・ポンド"
+  },
+  {
+    "name": "アメリカ合衆国（米国）",
+    "en": "United States of America",
+    "capital": "ワシントンD. C.",
+    "independent": "－",
+    "language": "英語",
+    "area": "9,628",
+    "population": "33,006",
+    "currency": "米ドル"
+  },
+  {
+    "name": "カナダ",
+    "en": "Canada",
+    "capital": "オタワ",
+    "independent": "－",
+    "language": "英語、フランス語",
+    "area": "9,985",
+    "population": "3,789",
+    "currency": "カナダ・ドル"
+  },
+  {
+    "name": "アルゼンチン共和国",
+    "en": "Argentine Republic",
+    "capital": "ブエノスアイレス",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "2,780",
+    "population": "4,494",
+    "currency": "ペソ"
+  },
+  {
+    "name": "アンティグア・バーブーダ",
+    "en": "Antigua and Barbuda",
+    "capital": "セントジョンズ",
+    "independent": "1981年",
+    "language": "英語、アンティグア・クレオール語",
+    "area": "0.4",
+    "population": "9.6",
+    "currency": "東カリブ・ドル"
+  },
+  {
+    "name": "ウルグアイ東方共和国",
+    "en": "Oriental Republic of Uruguay",
+    "capital": "モンテビデオ",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "176",
+    "population": "346",
+    "currency": "ペソ"
+  },
+  {
+    "name": "エクアドル共和国",
+    "en": "Republic of Ecuador",
+    "capital": "キト",
+    "independent": "-",
+    "language": "スペイン語、ケチュア語、シュアール語",
+    "area": "256",
+    "population": "1,708",
+    "currency": "米ドル"
+  },
+  {
+    "name": "エルサルバドル共和国",
+    "en": "Republic of El Salvador",
+    "capital": "サンサルバドル",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "21",
+    "population": "664",
+    "currency": "米ドル"
+  },
+  {
+    "name": "ガイアナ共和国",
+    "en": "Republic of Guyana",
+    "capital": "ジョージタウン",
+    "independent": "1966年",
+    "language": "英語、ガイアナ・クレオール語等",
+    "area": "215",
+    "population": "78.2",
+    "currency": "ガイアナ・ドル"
+  },
+  {
+    "name": "キューバ共和国",
+    "en": "Republic of Cuba",
+    "capital": "ハバナ",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "110",
+    "population": "1,148",
+    "currency": "キューバ・ペソ、兌換ペソ"
+  },
+  {
+    "name": "グアテマラ共和国",
+    "en": "Republic of Guatemala",
+    "capital": "グアテマラシティー",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "109",
+    "population": "1,660",
+    "currency": "ケツァル"
+  },
+  {
+    "name": "グレナダ",
+    "en": "Grenada",
+    "capital": "セントジョージズ",
+    "independent": "1974年",
+    "language": "英語、グレナダ・クレオール語",
+    "area": "0.3",
+    "population": "11.2",
+    "currency": "東カリブ・ドル"
+  },
+  {
+    "name": "コスタリカ共和国",
+    "en": "Republic of Costa Rica",
+    "capital": "サンホセ",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "51",
+    "population": "499",
+    "currency": "コロン"
+  },
+  {
+    "name": "コロンビア共和国",
+    "en": "Republic of Colombia",
+    "capital": "ボゴタ",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "1,139",
+    "population": "4,965",
+    "currency": "ペソ"
+  },
+  {
+    "name": "ジャマイカ",
+    "en": "Jamaica",
+    "capital": "キングストン",
+    "independent": "1962年",
+    "language": "英語、ジャマイカ・クレオール語",
+    "area": "11",
+    "population": "294.8",
+    "currency": "ジャマイカドル"
+  },
+  {
+    "name": "スリナム共和国",
+    "en": "Republic of Suriname",
+    "capital": "パラマリボ",
+    "independent": "1975年",
+    "language": "オランダ語、英語、スリナム語等",
+    "area": "164",
+    "population": "58.1",
+    "currency": "スリナム・ドル"
+  },
+  {
+    "name": "セントクリストファー・ネーヴィス",
+    "en": "Saint Christopher and Nevis",
+    "capital": "バセテール",
+    "independent": "1983年",
+    "language": "英語",
+    "area": "0.3",
+    "population": "5.2",
+    "currency": "東カリブ・ドル"
+  },
+  {
+    "name": "セントビンセント及びグレナディーン諸島",
+    "en": "Saint Vincent and the Grenadines",
+    "capital": "キングスタウン",
+    "independent": "1979年",
+    "language": "英語、セントビンセント・クレオール語",
+    "area": "0.4",
+    "population": "11",
+    "currency": "東カリブ・ドル"
+  },
+  {
+    "name": "セントルシア",
+    "en": "Saint Lucia",
+    "capital": "カストリーズ",
+    "independent": "1979年",
+    "language": "英語、セントルシア・クレオール語",
+    "area": "0.6",
+    "population": "18.1",
+    "currency": "東カリブ・ドル"
+  },
+  {
+    "name": "チリ共和国",
+    "en": "Republic of Chile",
+    "capital": "サンティアゴ",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "756",
+    "population": "1,873",
+    "currency": "ペソ"
+  },
+  {
+    "name": "ドミニカ国",
+    "en": "Commonwealth of Dominica",
+    "capital": "ロゾー",
+    "independent": "1978年",
+    "language": "英語、フランス語系パトワ語",
+    "area": "0.8",
+    "population": "7.1",
+    "currency": "東カリブ・ドル"
+  },
+  {
+    "name": "ドミニカ共和国",
+    "en": "Dominican Republic",
+    "capital": "サントドミンゴ",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "48",
+    "population": "1,073",
+    "currency": "ドミニカ・ペソ"
+  },
+  {
+    "name": "トリニダード・トバゴ共和国",
+    "en": "Republic of Trinidad and Tobago",
+    "capital": "ポート・オブ・スペイン",
+    "independent": "1962年",
+    "language": "英語、ヒンディー語、フランス語、スペイン語、トリニダード・クレオール語等",
+    "area": "5",
+    "population": "139.5",
+    "currency": "トリニダード・トバゴ・ドル"
+  },
+  {
+    "name": "ニカラグア共和国",
+    "en": "Republic of Nicaragua",
+    "capital": "マナグア",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "130",
+    "population": "647",
+    "currency": "コルドバ"
+  },
+  {
+    "name": "ハイチ共和国",
+    "en": "Republic of Haiti",
+    "capital": "ポルトープランス",
+    "independent": "-",
+    "language": "フランス語、ハイチ・クレオール語",
+    "area": "28",
+    "population": "1,126.3",
+    "currency": "グルド"
+  },
+  {
+    "name": "パナマ共和国",
+    "en": "Republic of Panama",
+    "capital": "パナマシティー",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "76",
+    "population": "422",
+    "currency": "バルボア"
+  },
+  {
+    "name": "バハマ国",
+    "en": "Commonwealth of The Bahamas",
+    "capital": "ナッソー",
+    "independent": "1973年",
+    "language": "英語",
+    "area": "14",
+    "population": "38.9",
+    "currency": "バハマ・ドル"
+  },
+  {
+    "name": "パラグアイ共和国",
+    "en": "Republic of Paraguay",
+    "capital": "アスンシオン",
+    "independent": "-",
+    "language": "スペイン語、グアラニー語",
+    "area": "407",
+    "population": "704",
+    "currency": "グアラニー"
+  },
+  {
+    "name": "バルバドス",
+    "en": "Barbados",
+    "capital": "ブリッジタウン",
+    "independent": "1966年",
+    "language": "英語",
+    "area": "0.4",
+    "population": "28.6",
+    "currency": "バルバドス・ドル"
+  },
+  {
+    "name": "ブラジル連邦共和国",
+    "en": "Federative Republic of Brazil",
+    "capital": "ブラジリア",
+    "independent": "-",
+    "language": "ポルトガル語",
+    "area": "8,512",
+    "population": "20,947",
+    "currency": "レアル"
+  },
+  {
+    "name": "ベネズエラ・ボリバル共和国",
+    "en": "Bolivarian Republic of Venezuela",
+    "capital": "カラカス",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "912",
+    "population": "2,753",
+    "currency": "ボリバル"
+  },
+  {
+    "name": "ベリーズ",
+    "en": "Belize",
+    "capital": "ベルモパン",
+    "independent": "1981年",
+    "language": "英語、スペイン語、ベリーズ・クレオール語、モパン語等",
+    "area": "23",
+    "population": "39",
+    "currency": "ベリーズ・ドル"
+  },
+  {
+    "name": "ペルー共和国",
+    "en": "Republic of Peru",
+    "capital": "リマ",
+    "independent": "-",
+    "language": "スペイン語、ケチュア語、アイマラ語",
+    "area": "1,290",
+    "population": "3,199",
+    "currency": "ソル"
+  },
+  {
+    "name": "ボリビア多民族国",
+    "en": "Plurinational State of Bolivia",
+    "capital": "ラパス",
+    "independent": "-",
+    "language": "スペイン語、ケチュア語、アイマラ語",
+    "area": "1,100",
+    "population": "1,151",
+    "currency": "ボリビアーノス"
+  },
+  {
+    "name": "ホンジュラス共和国",
+    "en": "Republic of Honduras",
+    "capital": "テグシガルパ",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "112",
+    "population": "959",
+    "currency": "レンピラ"
+  },
+  {
+    "name": "メキシコ合衆国",
+    "en": "United Mexican States",
+    "capital": "メキシコシティ",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "1,960",
+    "population": "12,619",
+    "currency": "ペソ"
+  },
+  {
+    "name": "アイスランド共和国",
+    "en": "Republic of Iceland",
+    "capital": "レイキャビク",
+    "independent": "1944年",
+    "language": "アイスランド語",
+    "area": "103",
+    "population": "34.8",
+    "currency": "アイスランドクローナ"
+  },
+  {
+    "name": "アイルランド",
+    "en": "Ireland",
+    "capital": "ダブリン",
+    "independent": "-",
+    "language": "アイルランド語、英語",
+    "area": "73",
+    "population": "492",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "アゼルバイジャン共和国",
+    "en": "Republic of Azerbaijan",
+    "capital": "バクー",
+    "independent": "1991年",
+    "language": "アゼルバイジャン語",
+    "area": "87",
+    "population": "1,000",
+    "currency": "マナト"
+  },
+  {
+    "name": "アルバニア共和国",
+    "en": "Republic of Albania",
+    "capital": "ティラナ",
+    "independent": "-",
+    "language": "アルバニア語",
+    "area": "29",
+    "population": "286",
+    "currency": "レク"
+  },
+  {
+    "name": "アルメニア共和国",
+    "en": "Republic of Armenia",
+    "capital": "エレバン",
+    "independent": "1991年",
+    "language": "アルメニア語",
+    "area": "30",
+    "population": "290",
+    "currency": "ドラム"
+  },
+  {
+    "name": "アンドラ公国",
+    "en": "Principality of Andorra",
+    "capital": "アンドラ・ラ・ベリャ",
+    "independent": "1993年",
+    "language": "カタルニア語、スペイン語、ポルトガル語、フランス語",
+    "area": "0.5",
+    "population": "7.8",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "イタリア共和国",
+    "en": "Italian Republic",
+    "capital": "ローマ",
+    "independent": "-",
+    "language": "イタリア語",
+    "area": "301",
+    "population": "6,046",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "ウクライナ",
+    "en": "Ukraine",
+    "capital": "キエフ",
+    "independent": "1991年",
+    "language": "ウクライナ語、ロシア語",
+    "area": "604",
+    "population": "4,205",
+    "currency": "フリヴニャ"
+  },
+  {
+    "name": "ウズベキスタン共和国",
+    "en": "Republic of Uzbekistan",
+    "capital": "タシケント",
+    "independent": "1991年",
+    "language": "ウズベク語、ロシア語",
+    "area": "447",
+    "population": "3,350",
+    "currency": "スム"
+  },
+  {
+    "name": "グレートブリテン及び北アイルランド連合王国（英国）",
+    "en": "United Kingdom of Great Britain and Northern Ireland",
+    "capital": "ロンドン",
+    "independent": "-",
+    "language": "英語",
+    "area": "243",
+    "population": "6,680",
+    "currency": "スターリング・ポンド"
+  },
+  {
+    "name": "エストニア共和国",
+    "en": "Republic of Estonia",
+    "capital": "タリン",
+    "independent": "1991年",
+    "language": "エストニア語",
+    "area": "45",
+    "population": "133",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "オーストリア共和国",
+    "en": "Republic of Austria",
+    "capital": "ウィーン",
+    "independent": "-",
+    "language": "ドイツ語",
+    "area": "84",
+    "population": "880",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "オランダ王国",
+    "en": "Kingdom of the Netherlands",
+    "capital": "アムステルダム",
+    "independent": "-",
+    "language": "オランダ語",
+    "area": "42",
+    "population": "1,738.4",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "カザフスタン共和国",
+    "en": "Republic of Kazakhstan",
+    "capital": "ヌルスルタン",
+    "independent": "1991年",
+    "language": "カザフ語、ロシア語",
+    "area": "2,725",
+    "population": "1,860",
+    "currency": "テンゲ"
+  },
+  {
+    "name": "北マケドニア共和国",
+    "en": "Republic of North Macedonia",
+    "capital": "スコピエ",
+    "independent": "1991年",
+    "language": "マケドニア語、アルバニア語",
+    "area": "25",
+    "population": "208",
+    "currency": "マケドニア・デナル"
+  },
+  {
+    "name": "キプロス共和国",
+    "en": "Republic of Cyprus",
+    "capital": "ニコシア",
+    "independent": "1960年",
+    "language": "ギリシャ語、トルコ語",
+    "area": "9",
+    "population": "119",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "ギリシャ共和国",
+    "en": "Hellenic Republic",
+    "capital": "アテネ",
+    "independent": "-",
+    "language": "現代ギリシャ語",
+    "area": "132",
+    "population": "1,074",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "キルギス共和国",
+    "en": "Kyrgyz Republic",
+    "capital": "ビシュケク",
+    "independent": "1991年",
+    "language": "キルギス語、ロシア語",
+    "area": "199",
+    "population": "650",
+    "currency": "ソム"
+  },
+  {
+    "name": "クロアチア共和国",
+    "en": "Republic of Croatia",
+    "capital": "ザグレブ",
+    "independent": "1991年",
+    "language": "クロアチア語",
+    "area": "57",
+    "population": "406.8",
+    "currency": "クーナ"
+  },
+  {
+    "name": "コソボ共和国",
+    "en": "Republic of Kosovo",
+    "capital": "プリシュティナ",
+    "independent": "2008年",
+    "language": "アルバニア語、セルビア語",
+    "area": "11",
+    "population": "179.4",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "サンマリノ共和国",
+    "en": "Republic of San Marino",
+    "capital": "サンマリノ",
+    "independent": "-",
+    "language": "イタリア語",
+    "area": "0.06",
+    "population": "3.3",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "ジョージア",
+    "en": "Georgia",
+    "capital": "トビリシ",
+    "independent": "1991年",
+    "language": "ジョージア語",
+    "area": "70",
+    "population": "400",
+    "currency": "ラリ"
+  },
+  {
+    "name": "スイス連邦",
+    "en": "Swiss Confederation",
+    "capital": "ベルン",
+    "independent": "-",
+    "language": "ドイツ語、フランス語、イタリア語、ロマンシュ語",
+    "area": "41",
+    "population": "861",
+    "currency": "スイスフラン"
+  },
+  {
+    "name": "スウェーデン王国",
+    "en": "Kingdom of Sweden",
+    "capital": "ストックホルム",
+    "independent": "-",
+    "language": "スウェーデン語",
+    "area": "450",
+    "population": "1,022",
+    "currency": "スウェーデン・クローナ"
+  },
+  {
+    "name": "スペイン",
+    "en": "Kingdom of Spain",
+    "capital": "マドリード",
+    "independent": "-",
+    "language": "スペイン語",
+    "area": "506",
+    "population": "4,708",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "スロバキア共和国",
+    "en": "Slovak Republic",
+    "capital": "ブラチスラバ",
+    "independent": "1993年",
+    "language": "スロバキア語",
+    "area": "49",
+    "population": "545",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "スロベニア共和国",
+    "en": "Republic of Slovenia",
+    "capital": "リュブリャナ",
+    "independent": "1991年",
+    "language": "スロベニア語",
+    "area": "23",
+    "population": "206",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "セルビア共和国",
+    "en": "Republic of Serbia",
+    "capital": "ベオグラード",
+    "independent": "1992年",
+    "language": "セルビア語、ハンリー語",
+    "area": "77",
+    "population": "700",
+    "currency": "ディナール"
+  },
+  {
+    "name": "タジキスタン共和国",
+    "en": "Republic of Tajikistan",
+    "capital": "ドゥシャンベ",
+    "independent": "1991年",
+    "language": "タジク語、ロシア語",
+    "area": "143",
+    "population": "930",
+    "currency": "ソモニ"
+  },
+  {
+    "name": "チェコ共和国",
+    "en": "Czech Republic",
+    "capital": "プラハ",
+    "independent": "1993年",
+    "language": "チェコ語",
+    "area": "79",
+    "population": "1,069",
+    "currency": "チェコ・コルナ"
+  },
+  {
+    "name": "デンマーク王国",
+    "en": "Kingdom of Denmark",
+    "capital": "コペンハーゲン",
+    "independent": "-",
+    "language": "デンマーク語",
+    "area": "43",
+    "population": "581",
+    "currency": "デンマーク・クローネ"
+  },
+  {
+    "name": "ドイツ連邦共和国",
+    "en": "Federal Republic of Germany",
+    "capital": "ベルリン",
+    "independent": "-",
+    "language": "ドイツ語",
+    "area": "357",
+    "population": "8,315",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "トルクメニスタン",
+    "en": "Turkmenistan",
+    "capital": "アシガバット",
+    "independent": "1991年",
+    "language": "トルクメン語、ロシア語",
+    "area": "488",
+    "population": "590",
+    "currency": "マナト"
+  },
+  {
+    "name": "ノルウェー王国",
+    "en": "Kingdom of Norway",
+    "capital": "オスロ",
+    "independent": "-",
+    "language": "ノルウェー語",
+    "area": "386",
+    "population": "532.8",
+    "currency": "ノルウェー・クローネ"
+  },
+  {
+    "name": "バチカン",
+    "en": "Vatican",
+    "capital": "なし",
+    "independent": "-",
+    "language": "ラテン語、フランス語、イタリア語",
+    "area": "0.44平方キロ",
+    "population": "615人",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "ハンガリー",
+    "en": "Hungary",
+    "capital": "ブダペスト",
+    "independent": "-",
+    "language": "ハンガリー語",
+    "area": "93",
+    "population": "980",
+    "currency": "フォリント"
+  },
+  {
+    "name": "フィンランド共和国",
+    "en": "Republic of Finland",
+    "capital": "ヘルシンキ",
+    "independent": "-",
+    "language": "フィンランド語、スウェーデン語",
+    "area": "338",
+    "population": "551",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "フランス共和国",
+    "en": "French Republic",
+    "capital": "パリ",
+    "independent": "-",
+    "language": "フランス語",
+    "area": "544",
+    "population": "6,706",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "ブルガリア共和国",
+    "en": "Republic of Bulgaria",
+    "capital": "ソフィア",
+    "independent": "-",
+    "language": "ブルガリア語",
+    "area": "111",
+    "population": "698",
+    "currency": "レフ"
+  },
+  {
+    "name": "ベラルーシ共和国",
+    "en": "Republic of Belarus",
+    "capital": "ミンスク",
+    "independent": "1991年",
+    "language": "ベラルーシ語、ロシア語",
+    "area": "208",
+    "population": "940",
+    "currency": "ベラルーシ・ルーブル"
+  },
+  {
+    "name": "ベルギー王国",
+    "en": "Kingdom of Belgium",
+    "capital": "ブリュッセル",
+    "independent": "-",
+    "language": "オランダ語、フランス語、ドイツ語",
+    "area": "31",
+    "population": "1,149.3",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "ボスニア・ヘルツェゴビナ",
+    "en": "Bosnia and Herzegovina",
+    "capital": "サラエボ",
+    "independent": "1992年",
+    "language": "ボスニア語、セルビア語、クロアチア語",
+    "area": "51",
+    "population": "332.3",
+    "currency": "兌換マルク"
+  },
+  {
+    "name": "ポーランド共和国",
+    "en": "Republic of Poland",
+    "capital": "ワルシャワ",
+    "independent": "-",
+    "language": "ポーランド語",
+    "area": "322",
+    "population": "3,839",
+    "currency": "ズロチ"
+  },
+  {
+    "name": "ポルトガル共和国",
+    "en": "Portuguese Republic",
+    "capital": "リスボン",
+    "independent": "-",
+    "language": "ポルトガル語",
+    "area": "92",
+    "population": "1,029",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "マルタ共和国",
+    "en": "Republic of Malta",
+    "capital": "バレッタ",
+    "independent": "1964年",
+    "language": "マルタ語、英語",
+    "area": "0.3",
+    "population": "51",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "モナコ公国",
+    "en": "Principality of Monaco",
+    "capital": "モナコ",
+    "independent": "-",
+    "language": "フランス語",
+    "area": "2平方キロ",
+    "population": "3.8",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "モルドバ共和国",
+    "en": "Republic of Moldova",
+    "capital": "キシニョフ",
+    "independent": "1991年",
+    "language": "モルドバ（ルーマニア）語、ロシア語",
+    "area": "34",
+    "population": "268.2",
+    "currency": "モルドバ・レイ"
+  },
+  {
+    "name": "モンテネグロ",
+    "en": "Montenegro",
+    "capital": "ポドゴリツァ",
+    "independent": "2006年",
+    "language": "モンテネグロ語、セルビア語",
+    "area": "14",
+    "population": "62",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "ラトビア共和国",
+    "en": "Republic of Latvia",
+    "capital": "リガ",
+    "independent": "1991年",
+    "language": "ラトビア語",
+    "area": "65",
+    "population": "193",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "リトアニア共和国",
+    "en": "Republic of Lithuania",
+    "capital": "ビリニュス",
+    "independent": "1991年",
+    "language": "リトアニア語",
+    "area": "65",
+    "population": "279",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "リヒテンシュタイン公国",
+    "en": "Principality of Liechtenstein",
+    "capital": "ファドーツ",
+    "independent": "-",
+    "language": "ドイツ語",
+    "area": "0.2",
+    "population": "3.8",
+    "currency": "スイス・フラン"
+  },
+  {
+    "name": "ルクセンブルク大公国",
+    "en": "Grand Duchy of Luxembourg",
+    "capital": "ルクセンブルク",
+    "independent": "-",
+    "language": "ルクセンブルク語、フランス語、ドイツ語",
+    "area": "3",
+    "population": "62.6",
+    "currency": "ユーロ"
+  },
+  {
+    "name": "ルーマニア",
+    "en": "Romania",
+    "capital": "ブカレスト",
+    "independent": "-",
+    "language": "ルーマニア語、ハンガリー語",
+    "area": "238",
+    "population": "1,941",
+    "currency": "レイ"
+  },
+  {
+    "name": "ロシア連邦",
+    "en": "Russian Federation",
+    "capital": "モスクワ",
+    "independent": "-",
+    "language": "ロシア語",
+    "area": "17,100",
+    "population": "14,680",
+    "currency": "ルーブル"
+  },
+  {
+    "name": "オーストラリア連邦",
+    "en": "Commonwealth of Australia （注）",
+    "capital": "キャンベラ",
+    "independent": "－",
+    "language": "英語",
+    "area": "7,692",
+    "population": "2,565",
+    "currency": "オーストラリア・ドル"
+  },
+  {
+    "name": "キリバス共和国",
+    "en": "Republic of Kiribati",
+    "capital": "タラワ",
+    "independent": "1979年",
+    "language": "キリバス語、英語",
+    "area": "0.7",
+    "population": "11.6",
+    "currency": "オーストラリア・ドル"
+  },
+  {
+    "name": "クック諸島",
+    "en": "Cook Islands",
+    "capital": "アバルア（ラロトンガ島）",
+    "independent": "－",
+    "language": "クック諸島マオリ語、英語",
+    "area": "0.2",
+    "population": "1.8",
+    "currency": "ニュージーランド・ドル"
+  },
+  {
+    "name": "サモア独立国",
+    "en": "Independent State of Samoa",
+    "capital": "アピア",
+    "independent": "1962年",
+    "language": "サモア語、英語",
+    "area": "3",
+    "population": "20",
+    "currency": "サモア・タラ"
+  },
+  {
+    "name": "ソロモン諸島",
+    "en": "Solomon Islands",
+    "capital": "ホニアラ",
+    "independent": "1978年",
+    "language": "英語、ピジン英語",
+    "area": "29",
+    "population": "65",
+    "currency": "ソロモン・ドル"
+  },
+  {
+    "name": "ツバル",
+    "en": "Tuvalu",
+    "capital": "フナフティ",
+    "independent": "1978年",
+    "language": "英語、ツバル語",
+    "area": "0.03",
+    "population": "1.1",
+    "currency": "オーストラリア・ドル"
+  },
+  {
+    "name": "トンガ王国",
+    "en": "Kingdom of Tonga",
+    "capital": "ヌクアロファ",
+    "independent": "1970年",
+    "language": "トンガ語、英語",
+    "area": "0.7",
+    "population": "10.3",
+    "currency": "パアンガ"
+  },
+  {
+    "name": "ナウル共和国",
+    "en": "Republic of Nauru",
+    "capital": "ヤレン",
+    "independent": "1968年",
+    "language": "英語、ナウル語",
+    "area": "0.02",
+    "population": "1.3",
+    "currency": "オーストラリア・ドル"
+  },
+  {
+    "name": "ニウエ",
+    "en": "Niue",
+    "capital": "アロフィ",
+    "independent": "－",
+    "language": "ニウエ語（ポリネシア語系）、英語",
+    "area": "0.3",
+    "population": "0.15",
+    "currency": "ニュージーランド・ドル"
+  },
+  {
+    "name": "ニュージーランド",
+    "en": "New Zealand",
+    "capital": "ウェリントン",
+    "independent": "－",
+    "language": "英語、マオリ語",
+    "area": "275",
+    "population": "504",
+    "currency": "ニュージーランド・ドル"
+  },
+  {
+    "name": "バヌアツ共和国",
+    "en": "Republic of Vanuatu",
+    "capital": "ポートビラ",
+    "independent": "1980年",
+    "language": "ビスラマ語（ピジン英語）、英語、フランス語",
+    "area": "12",
+    "population": "29.3",
+    "currency": "バツ"
+  },
+  {
+    "name": "パプアニューギニア独立国",
+    "en": "Independent State of Papua New Guinea",
+    "capital": "ポートモレスビー",
+    "independent": "1975年",
+    "language": "英語、ピジン英語、モツ語",
+    "area": "460",
+    "population": "861",
+    "currency": "キナ及びトヤ"
+  },
+  {
+    "name": "パラオ共和国",
+    "en": "Republic of Palau",
+    "capital": "マルキョク",
+    "independent": "1994年",
+    "language": "パラオ語、英語",
+    "area": "0.5",
+    "population": "1.8",
+    "currency": "米ドル"
+  },
+  {
+    "name": "フィジー共和国",
+    "en": "Republic of Fiji",
+    "capital": "スバ",
+    "independent": "1970年",
+    "language": "英語、フィジー語、ヒンディー語",
+    "area": "18",
+    "population": "89",
+    "currency": "フィジードル"
+  },
+  {
+    "name": "マーシャル諸島共和国",
+    "en": "Republic of the Marshall Islands",
+    "capital": "マジュロ",
+    "independent": "1986年",
+    "language": "マーシャル語、英語",
+    "area": "0.2",
+    "population": "5.8",
+    "currency": "米ドル"
+  },
+  {
+    "name": "ミクロネシア連邦",
+    "en": "Federated States of Micronesia",
+    "capital": "パリキール",
+    "independent": "1986年",
+    "language": "英語、他現地の8言語",
+    "area": "0.7",
+    "population": "11.2",
+    "currency": "米ドル"
+  },
+  {
+    "name": "アルジェリア民主人民共和国",
+    "en": "People' s Democratic Republic of Algeria",
+    "capital": "アルジェ",
+    "independent": "1962年",
+    "language": "アラビア語、ベルベル語、フランス語",
+    "area": "2,380",
+    "population": "4,220",
+    "currency": "アルジェリアン・ディナール"
+  },
+  {
+    "name": "アンゴラ共和国",
+    "en": "Republic of Angola",
+    "capital": "ルアンダ",
+    "independent": "1975年",
+    "language": "ポルトガル語、ウンブンドゥ語",
+    "area": "1,247",
+    "population": "3,080",
+    "currency": "クワンザ"
+  },
+  {
+    "name": "ウガンダ共和国",
+    "en": "Republic of Uganda",
+    "capital": "カンパラ",
+    "independent": "1962年",
+    "language": "英語、スワヒリ語、ルガンダ語",
+    "area": "241",
+    "population": "4,272",
+    "currency": "ウガンダ・シリング"
+  },
+  {
+    "name": "エジプト・アラブ共和国",
+    "en": "Arab Republic of Egypt",
+    "capital": "カイロ",
+    "independent": "-",
+    "language": "アラビア語",
+    "area": "1,000",
+    "population": "9,842",
+    "currency": "エジプト・ポンド"
+  },
+  {
+    "name": "エスワティニ王国",
+    "en": "Kingdom of Eswatini",
+    "capital": "ムババーネ",
+    "independent": "1968年",
+    "language": "英語、スワティ語",
+    "area": "17",
+    "population": "113",
+    "currency": "リランゲーニ"
+  },
+  {
+    "name": "エチオピア連邦民主共和国",
+    "en": "Federal Democratic Republic of Ethiopia",
+    "capital": "アディスアベバ",
+    "independent": "-",
+    "language": "アムハラ語、オロモ語、英語",
+    "area": "1,097",
+    "population": "11,207",
+    "currency": "ブル"
+  },
+  {
+    "name": "エリトリア国",
+    "en": "State of Eritrea",
+    "capital": "アスマラ",
+    "independent": "1993年",
+    "language": "ティグリニャ語、アラビア語",
+    "area": "118",
+    "population": "550",
+    "currency": "ナクファ"
+  },
+  {
+    "name": "ガーナ共和国",
+    "en": "Republic of Ghana",
+    "capital": "アクラ",
+    "independent": "1957年",
+    "language": "英語",
+    "area": "239",
+    "population": "3,042",
+    "currency": "ガーナセディ"
+  },
+  {
+    "name": "カーボベルデ共和国",
+    "en": "Republic of Cabo Verde",
+    "capital": "プライア",
+    "independent": "1975年",
+    "language": "ポルトガル語、クレオール語",
+    "area": "4",
+    "population": "55",
+    "currency": "カーボベルデ・エスクード"
+  },
+  {
+    "name": "ガボン共和国",
+    "en": "Gabonese Republic",
+    "capital": "リーブルビル",
+    "independent": "1960年",
+    "language": "フランス語",
+    "area": "268",
+    "population": "217",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "カメルーン共和国",
+    "en": "Republic of Cameroon",
+    "capital": "ヤウンデ",
+    "independent": "1960年",
+    "language": "フランス語、英語",
+    "area": "475",
+    "population": "2,587",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ガンビア共和国",
+    "en": "Republic of The Gambia",
+    "capital": "バンジュール",
+    "independent": "1965年",
+    "language": "英語、マンディンゴ語、ウォロフ語、フラ語",
+    "area": "11",
+    "population": "228",
+    "currency": "ダラシ"
+  },
+  {
+    "name": "ギニア共和国",
+    "en": "Republic of Guinea",
+    "capital": "コナクリ",
+    "independent": "1958年",
+    "language": "フランス語",
+    "area": "246",
+    "population": "1,277",
+    "currency": "ギニア・フラン"
+  },
+  {
+    "name": "ギニアビサウ共和国",
+    "en": "Republic of Guinea-Bissau",
+    "capital": "ビサウ",
+    "independent": "1973年",
+    "language": "ポルトガル語",
+    "area": "36",
+    "population": "192",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ケニア共和国",
+    "en": "Republic of Kenya",
+    "capital": "ナイロビ",
+    "independent": "1963年",
+    "language": "スワヒリ語、英語",
+    "area": "583",
+    "population": "5,257",
+    "currency": "ケニア・シリング"
+  },
+  {
+    "name": "コートジボワール共和国",
+    "en": "Republic of Cote d'Ivoire",
+    "capital": "ヤムスクロ",
+    "independent": "1960年",
+    "language": "フランス語",
+    "area": "322",
+    "population": "2,507",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "コモロ連合",
+    "en": "Union of Comoros",
+    "capital": "モロニ",
+    "independent": "1975年",
+    "language": "フランス語、アラビア語、コモロ語",
+    "area": "2",
+    "population": "85.1",
+    "currency": "コモロ・フラン"
+  },
+  {
+    "name": "コンゴ共和国",
+    "en": "Republic of Congo",
+    "capital": "ブラザビル",
+    "independent": "1960年",
+    "language": "フランス語、リンガラ語、キトゥバ語",
+    "area": "342",
+    "population": "538",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "コンゴ民主共和国",
+    "en": "Democratic Republic of the Congo",
+    "capital": "キンシャサ",
+    "independent": "1960年",
+    "language": "フランス語、スワヒリ語、リンガラ語、チルバ語、キコンゴ語",
+    "area": "2,345",
+    "population": "8,679",
+    "currency": "コンゴ・フラン"
+  },
+  {
+    "name": "サントメ・プリンシペ民主共和国",
+    "en": "Democratic Republic of Sao Tome and Principe",
+    "capital": "サントメ",
+    "independent": "1975年",
+    "language": "ポルトガル語",
+    "area": "1",
+    "population": "21",
+    "currency": "ドブラ"
+  },
+  {
+    "name": "ザンビア共和国",
+    "en": "Republic of Zambia",
+    "capital": "ルサカ",
+    "independent": "1964年",
+    "language": "英語、ベンバ語、ニャンジァ語、トンガ語",
+    "area": "753",
+    "population": "1,786",
+    "currency": "ザンビア・クワチャ"
+  },
+  {
+    "name": "シエラレオネ共和国",
+    "en": "Republic of Sierra Leone",
+    "capital": "フリータウン",
+    "independent": "1961年",
+    "language": "英語、クリオ語、メンデ語、テムネ語",
+    "area": "72",
+    "population": "781",
+    "currency": "レオン"
+  },
+  {
+    "name": "ジブチ共和国",
+    "en": "Republic of Djibouti",
+    "capital": "ジブチ",
+    "independent": "1977年",
+    "language": "アラビア語、フランス語",
+    "area": "23",
+    "population": "97.4",
+    "currency": "ジブチ・フラン"
+  },
+  {
+    "name": "ジンバブエ共和国",
+    "en": "Republic of Zimbabwe",
+    "capital": "ハラレ",
+    "independent": "1980年",
+    "language": "英語、ショナ語、ンデベレ語",
+    "area": "386",
+    "population": "1,444",
+    "currency": "ジンバブエ・ドル（注2）"
+  },
+  {
+    "name": "スーダン共和国",
+    "en": "The Republic of the Sudan",
+    "capital": "ハルツーム",
+    "independent": "1956年",
+    "language": "アラビア語、英語",
+    "area": "1,880",
+    "population": "4,281",
+    "currency": "スーダン・ポンド"
+  },
+  {
+    "name": "赤道ギニア共和国",
+    "en": "Republic of Equatorial Guinea",
+    "capital": "マラボ",
+    "independent": "1968年",
+    "language": "スペイン語、フランス語、ポルトガル語、ファン語、ブビ語",
+    "area": "28",
+    "population": "131",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "セーシェル共和国",
+    "en": "Republic of Seychelles",
+    "capital": "ビクトリア",
+    "independent": "1976年",
+    "language": "英語、フランス語、クレオール語",
+    "area": "0.5",
+    "population": "9.8",
+    "currency": "セーシェル・ルピー"
+  },
+  {
+    "name": "セネガル共和国",
+    "en": "Republic of Senegal",
+    "capital": "ダカール",
+    "independent": "1960年",
+    "language": "フランス語、ウォロフ語",
+    "area": "197",
+    "population": "1,630",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ソマリア連邦共和国",
+    "en": "Federal Republic of Somalia",
+    "capital": "モガディシュ",
+    "independent": "1960年",
+    "language": "ソマリ語、アラビア語",
+    "area": "638",
+    "population": "1,400",
+    "currency": "ソマリア・シリング"
+  },
+  {
+    "name": "タンザニア連合共和国",
+    "en": "United Republic of Tanzania",
+    "capital": "ドドマ",
+    "independent": "1961年",
+    "language": "スワヒリ語、英語",
+    "area": "945",
+    "population": "5,632",
+    "currency": "タンザニア・シリング"
+  },
+  {
+    "name": "チャド共和国",
+    "en": "Republic of Chad",
+    "capital": "ンジャメナ",
+    "independent": "1960年",
+    "language": "フランス語、アラビア語",
+    "area": "1,284",
+    "population": "1,548",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "中央アフリカ共和国",
+    "en": "Central African Republic",
+    "capital": "バンギ",
+    "independent": "1960年",
+    "language": "フランス語、サンゴ語、",
+    "area": "623",
+    "population": "475",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "チュニジア共和国",
+    "en": "Republic of Tunisia",
+    "capital": "チュニス",
+    "independent": "1956年",
+    "language": "アラビア語、フランス語",
+    "area": "164",
+    "population": "1,169",
+    "currency": "チェニジア・ディナール"
+  },
+  {
+    "name": "トーゴ共和国",
+    "en": "Republic of Togo",
+    "capital": "ロメ",
+    "independent": "1960年",
+    "language": "フランス語、エヴェ語、カビエ語",
+    "area": "54",
+    "population": "808",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ナイジェリア連邦共和国",
+    "en": "Federal Republic of Nigeria",
+    "capital": "アブジャ",
+    "independent": "1960年",
+    "language": "英語",
+    "area": "924",
+    "population": "20,096",
+    "currency": "ナイラ"
+  },
+  {
+    "name": "ナミビア共和国",
+    "en": "Republic of Namibia",
+    "capital": "ウィントフック",
+    "independent": "1990年",
+    "language": "英語、アフリカーンス語、ドイツ語",
+    "area": "824",
+    "population": "244.8",
+    "currency": "ナミビア・ドル"
+  },
+  {
+    "name": "ニジェール共和国",
+    "en": "Republic of Niger",
+    "capital": "ニアメ",
+    "independent": "1960年",
+    "language": "フランス語、ハウサ語",
+    "area": "1,267",
+    "population": "2,148",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ブルキナファソ",
+    "en": "Burkina Faso",
+    "capital": "ワガドゥグ",
+    "independent": "1960年",
+    "language": "フランス語、モシ語、ディウラ語、グルマンチェ語",
+    "area": "274",
+    "population": "2,032",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ブルンジ共和国",
+    "en": "Republic of Burundi",
+    "capital": "ブジュンブラ",
+    "independent": "1962年",
+    "language": "フランス語、キルンジ語",
+    "area": "28",
+    "population": "1,117",
+    "currency": "ブルンジ・フラン"
+  },
+  {
+    "name": "ベナン共和国",
+    "en": "Republic of Benin",
+    "capital": "ポルトノボ",
+    "independent": "1960年",
+    "language": "フランス語",
+    "area": "113",
+    "population": "1,149",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "ボツワナ共和国",
+    "en": "Republic of Botswana",
+    "capital": "ハボロネ",
+    "independent": "1966年",
+    "language": "英語、ツワナ語",
+    "area": "567",
+    "population": "230",
+    "currency": "プラ"
+  },
+  {
+    "name": "マダガスカル共和国",
+    "en": "Republic of Madagascar",
+    "capital": "アンタナナリボ",
+    "independent": "1960年",
+    "language": "マダガスカル語、フランス語",
+    "area": "587",
+    "population": "2,697",
+    "currency": "アリアリ"
+  },
+  {
+    "name": "マラウイ共和国",
+    "en": "Republic of Malawi",
+    "capital": "リロングウェ",
+    "independent": "1964年",
+    "language": "チェワ語、英語",
+    "area": "118",
+    "population": "1,862",
+    "currency": "マラウイ・クワチャ"
+  },
+  {
+    "name": "マリ共和国",
+    "en": "Republic of Mali",
+    "capital": "バマコ",
+    "independent": "1960年",
+    "language": "フランス語、バンバラ語、フルフルデ語、マリンケ語",
+    "area": "1,240",
+    "population": "1,966",
+    "currency": "CFAフラン（注1）"
+  },
+  {
+    "name": "南アフリカ共和国",
+    "en": "Republic of South Africa",
+    "capital": "プレトリア",
+    "independent": "-",
+    "language": "英語、アフリカーンス語、バンツー諸語の計11が公用語",
+    "area": "1,220",
+    "population": "5,778",
+    "currency": "ランド"
+  },
+  {
+    "name": "南スーダン共和国",
+    "en": "The Republic of South Sudan",
+    "capital": "ジュバ",
+    "independent": "2011年",
+    "language": "英語、アラビア語",
+    "area": "640",
+    "population": "1,258",
+    "currency": "南スーダン・ポンド"
+  },
+  {
+    "name": "モザンビーク共和国",
+    "en": "Republic of Mozambique",
+    "capital": "マプト",
+    "independent": "1975年",
+    "language": "ポルトガル語",
+    "area": "799",
+    "population": "3,036",
+    "currency": "メティカル"
+  },
+  {
+    "name": "モーリシャス共和国",
+    "en": "Republic of Mauritius",
+    "capital": "ポートルイス",
+    "independent": "1968年",
+    "language": "英語、フランス語、クレオール語",
+    "area": "2",
+    "population": "126.5",
+    "currency": "モーリシャス・ルピー"
+  },
+  {
+    "name": "モーリタニア・イスラム共和国",
+    "en": "Islamic Republic of Mauritania",
+    "capital": "ヌアクショット",
+    "independent": "1960年",
+    "language": "アラビア語、ブラール語、ソニンケ語、ウォロフ語、フランス語",
+    "area": "1,030",
+    "population": "453",
+    "currency": "ウギア"
+  },
+  {
+    "name": "モロッコ王国",
+    "en": "Kingdom of Morocco",
+    "capital": "ラバト",
+    "independent": "1956年",
+    "language": "アラビア語、ベルベル語、フランス語",
+    "area": "446",
+    "population": "3,603",
+    "currency": "モロッコ・ディルハム"
+  },
+  {
+    "name": "リビア",
+    "en": "Libya",
+    "capital": "トリポリ",
+    "independent": "1951年",
+    "language": "アラビア語",
+    "area": "1,760",
+    "population": "668",
+    "currency": "リビア・ディナール"
+  },
+  {
+    "name": "リベリア共和国",
+    "en": "Republic of Liberia",
+    "capital": "モンロビア",
+    "independent": "-",
+    "language": "英語",
+    "area": "111",
+    "population": "482",
+    "currency": "リベリア・ドル"
+  },
+  {
+    "name": "ルワンダ共和国",
+    "en": "Republic of Rwanda",
+    "capital": "キガリ",
+    "independent": "1962年",
+    "language": "ルワンダ語、英語、フランス語、スワヒリ語",
+    "area": "26",
+    "population": "1,263",
+    "currency": "ルワンダ・フラン"
+  },
+  {
+    "name": "レソト王国",
+    "en": "Kingdom of Lesotho",
+    "capital": "マセル",
+    "independent": "1966年",
+    "language": "英語、ソト語",
+    "area": "30",
+    "population": "210",
+    "currency": "ロチ"
+  }
+]
