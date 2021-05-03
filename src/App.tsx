@@ -2,7 +2,7 @@
 import React from "react";
 import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link, useLocation } from "react-router-dom";
 
 // Own modules
 import { Speak } from "./modules/Speak";
@@ -27,72 +27,80 @@ function importAll(r: __WebpackModuleApi.RequireContext) {
 function App() {
   const images = importAll(require.context("./images", false, /\.(gif)$/));
   const countries = Countries.sort((a, b) => a.name.localeCompare(b.name));
+  const location = useLocation();
+  let lang = "en";
+  React.useEffect(() => {
+    console.log(location.pathname)
+    switch (location.pathname) {
+      case "/ja": {
+        lang = "ja";
+      }
+    }
+  }, [location]);
   return (
-    <Router>
-      <div className="uk-text-muted">
-        {/* Navigation Header */}
-        <div className="uk-navbar-container" data-uk-navbar>
-          <div className="uk-navbar-left">
-            <div className="uk-panel uk-padding uk-background-muted">
-              <a className="uk-logo uk-text-emphasis" href="">
-                Picdex
-              </a>
-            </div>
-          </div>
-          <div className="uk-navbar-right">
-            <div className="uk-panel uk-padding uk-background-muted">
-              <ul className="uk-navbar-nav">
-                <li>
-                  <a data-uk-icon="icon:world; ratio: 1.5" />
-                  <div className="uk-navbar-dropdown">
-                    <ul className="uk-nav uk-navbar-dropdown-nav">
-                      <li>
-                        <Link to="/">English</Link>
-                      </li>
-                      <li>
-                        <Link to="/ja">日本語</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </div>
+    <div className="uk-text-muted">
+      {/* Navigation Header */}
+      <div className="uk-navbar-container" data-uk-navbar>
+        <div className="uk-navbar-left">
+          <div className="uk-panel uk-padding uk-background-muted">
+            <a className="uk-logo uk-text-emphasis" href="">
+              Picdex
+            </a>
           </div>
         </div>
-        {/* Contents */}
-        <div className="uk-container uk-container-expand">
-          <div
-            className="uk-grid-small uk-child-width-1-2 uk-child-width-1-5@s"
-            data-uk-grid
-          >
-            {countries.map((value) => {
-              return (
-                <div
-                  className="uk-card uk-card-default uk-card-body uk-text-center"
-                  key={value.images}
-                >
-                  <input
-                    type="image"
-                    id="button"
-                    src={images.get("./" + value.images)}
-                    onClick={() => {
-                      Speak(value.name, "ja");
-                    }}
-                  ></input>
-                  <div>{value.name}</div>
-                  <a
-                    data-uk-icon="icon:play; ratio: 1.5"
-                    onClick={() => {
-                      Speak(value.name, "ja");
-                    }}
-                  />
+        <div className="uk-navbar-right">
+          <div className="uk-panel uk-padding uk-background-muted">
+            <ul className="uk-navbar-nav">
+              <li>
+                <a data-uk-icon="icon:world; ratio: 1.5" />
+                <div className="uk-navbar-dropdown">
+                  <ul className="uk-nav uk-navbar-dropdown-nav">
+                    <li>
+                      <Link to="/">English</Link>
+                    </li>
+                    <li>
+                      <Link to="/ja">日本語</Link>
+                    </li>
+                  </ul>
                 </div>
-              );
-            })}
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </Router>
+      {/* Contents */}
+      <div className="uk-container uk-container-expand">
+        <div
+          className="uk-grid-small uk-child-width-1-2 uk-child-width-1-5@s"
+          data-uk-grid
+        >
+          {countries.map((value) => {
+            return (
+              <div
+                className="uk-card uk-card-default uk-card-body uk-text-center"
+                key={value.images}
+              >
+                <input
+                  type="image"
+                  id="button"
+                  src={images.get("./" + value.images)}
+                  onClick={() => {
+                    Speak(value.name, lang);
+                  }}
+                ></input>
+                <div>{value.name}</div>
+                <a
+                  data-uk-icon="icon:play; ratio: 1.5"
+                  onClick={() => {
+                    Speak(value.name, lang);
+                  }}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
   );
 }
 
