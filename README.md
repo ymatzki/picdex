@@ -1,3 +1,3 @@
-# Picdex
+# pivodex
 
-Picdex is web application like a Picture book.
+pivodex is web application like a Picture book.

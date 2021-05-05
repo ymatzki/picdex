@@ -52,7 +52,7 @@ function App() {
         <div className="uk-navbar-left">
           <div className="uk-panel uk-padding uk-padding-remove-vertical uk-background-muted">
             <a className="uk-logo uk-text-emphasis" href="">
-              Picdex
+              pivodex
             </a>
           </div>
         </div>

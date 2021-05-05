@@ -1,6 +1,6 @@
 {
-  "name": "picdex",
-  "homepage": "http://www.ymatzki.info/picdex/",
+  "name": "pivodex",
+  "homepage": "https:/pivodex.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
