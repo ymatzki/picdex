@@ -1,5 +1,5 @@
 // 3rd Party modules
-import React, { useMemo, useEffect, useRef } from "react";
+import React, { useMemo, useEffect } from "react";
 import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
 import { Link, useLocation } from "react-router-dom";
@@ -25,13 +25,21 @@ function importAll(r: __WebpackModuleApi.RequireContext) {
 }
 
 function App() {
-  const router = useRef(null);
   const location = useLocation();
-    
+
+  useEffect(() => {
+    const trackingId = "G-MW2MMVNHCB";
+    if (!window.gtag) return;
+    if (!trackingId) {
+      console.log(
+        "Tracking not enabled, as `trackingId` was not given and there is no `GA_MEASUREMENT_ID`."
+      );
+      return;
+    }
+    window.gtag("config", trackingId, { page_path: location.pathname });
+  }, [location]);
+
   const l = useMemo((): { lang: "en" | "ja"; disp: string } => {
-    window.gtag("config", "G-MW2MMVNHCB", {
-      page_path: location.pathname,
-    });
     switch (location.pathname) {
       case "/ja": {
         return { lang: "ja", disp: "日本語" };

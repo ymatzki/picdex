@@ -1,4 +1,4 @@
-export function Speak(word: string, lang?: string) {
+export function Speak(word: string, lang: string) {
   const utterance = new SpeechSynthesisUtterance(word);
   switch (lang) {
     case "ja":
@@ -9,7 +9,7 @@ export function Speak(word: string, lang?: string) {
       utterance.lang = "en-US";
   }
 
-  utterance.lang = lang || "en-US";
+  // utterance.lang = lang || "en-US";
   speechSynthesis.cancel();
   speechSynthesis.speak(utterance);
   utterance.onerror = (e) => {
