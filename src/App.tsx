@@ -1,8 +1,8 @@
 // 3rd Party modules
-import React from "react";
+import React, { useMemo } from "react";
 import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
-import { BrowserRouter as Router, Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 // Own modules
 import { Speak } from "./modules/Speak";
@@ -12,7 +12,7 @@ import "uikit/dist/css/uikit.min.css";
 import "./App.css";
 
 // JSON data
-import Countries from "./data/ja_countries.json";
+import Countries from "./data/countries.json";
 
 UIkit.use(Icons);
 
@@ -25,46 +25,57 @@ function importAll(r: __WebpackModuleApi.RequireContext) {
 }
 
 function App() {
-  const images = importAll(require.context("./images", false, /\.(gif)$/));
-  const countries = Countries.sort((a, b) => a.name.localeCompare(b.name));
   const location = useLocation();
-  let lang = "en";
-  React.useEffect(() => {
-    console.log(location.pathname)
+  const l = useMemo((): { lang: "en" | "ja"; disp: string } => {
     switch (location.pathname) {
       case "/ja": {
-        lang = "ja";
+        return { lang: "ja", disp: "日本語" };
       }
     }
+    return { lang: "en", disp: "English" };
   }, [location]);
+
+  const images = importAll(require.context("./images", false, /\.(gif)$/));
+
+  const countries = Countries.sort((a, b) => {
+    return getNameByLang(a.name, "en").localeCompare(
+      getNameByLang(b.name, "en")
+    );
+  }).map((val) => {
+    return { images: val.images, name: getNameByLang(val.name, l.lang) };
+  });
+
   return (
     <div className="uk-text-muted">
       {/* Navigation Header */}
-      <div className="uk-navbar-container" data-uk-navbar>
+      <div className="uk-navbar-container" data-uk-navbar data-uk-sticky>
         <div className="uk-navbar-left">
-          <div className="uk-panel uk-padding uk-background-muted">
+          <div className="uk-panel uk-padding uk-padding-remove-vertical uk-background-muted">
             <a className="uk-logo uk-text-emphasis" href="">
               Picdex
             </a>
           </div>
         </div>
         <div className="uk-navbar-right">
-          <div className="uk-panel uk-padding uk-background-muted">
-            <ul className="uk-navbar-nav">
-              <li>
-                <a data-uk-icon="icon:world; ratio: 1.5" />
-                <div className="uk-navbar-dropdown">
-                  <ul className="uk-nav uk-navbar-dropdown-nav">
-                    <li>
-                      <Link to="/">English</Link>
-                    </li>
-                    <li>
-                      <Link to="/ja">日本語</Link>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+          <div className="uk-panel uk-padding uk-padding-remove-vertical uk-background-muted">
+            <div className="uk-flex">
+              <div className="uk-flex uk-flex-middle">{l.disp}</div>
+              <ul className="uk-navbar-nav">
+                <li>
+                  <a data-uk-icon="icon:world; ratio: 1.5" />
+                  <div className="uk-navbar-dropdown">
+                    <ul className="uk-nav uk-navbar-dropdown-nav">
+                      <li>
+                        <Link to="/">English</Link>
+                      </li>
+                      <li>
+                        <Link to="/ja">日本語</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -85,14 +96,14 @@ function App() {
                   id="button"
                   src={images.get("./" + value.images)}
                   onClick={() => {
-                    Speak(value.name, lang);
+                    Speak(value.name, l.lang);
                   }}
                 ></input>
                 <div>{value.name}</div>
                 <a
                   data-uk-icon="icon:play; ratio: 1.5"
                   onClick={() => {
-                    Speak(value.name, lang);
+                    Speak(value.name, l.lang);
                   }}
                 />
               </div>
@@ -105,3 +116,7 @@ function App() {
 }
 
 export default App;
+
+const getNameByLang = <S, T extends keyof S>(obj: S, key: T) => {
+  return obj[key];
+};
