@@ -6,3 +6,5 @@ jobs:
     steps:
       - run: yarn build
       - run: yarn deploy
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
