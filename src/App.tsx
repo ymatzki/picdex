@@ -1,5 +1,5 @@
 // 3rd Party modules
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect, useRef } from "react";
 import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
 import { Link, useLocation } from "react-router-dom";
@@ -25,8 +25,13 @@ function importAll(r: __WebpackModuleApi.RequireContext) {
 }
 
 function App() {
+  const router = useRef(null);
   const location = useLocation();
+    
   const l = useMemo((): { lang: "en" | "ja"; disp: string } => {
+    window.gtag("config", "G-MW2MMVNHCB", {
+      page_path: location.pathname,
+    });
     switch (location.pathname) {
       case "/ja": {
         return { lang: "ja", disp: "日本語" };

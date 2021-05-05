@@ -1,6 +1,6 @@
 {
   "name": "pivodex",
-  "homepage": "https:/pivodex.com/",
+  "homepage": "https://www.pivodex.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.4",
     "@types/react-redux": "^7.1.16",
     "@types/react-router": "^5.1.13",
     "@types/react-router-dom": "^5.1.7",
