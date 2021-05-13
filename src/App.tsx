@@ -1,8 +1,9 @@
 // 3rd Party modules
-import React, { useMemo, useEffect } from "react";
+import React, { useMemo, useEffect, useRef, ReactElement } from "react";
 import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useHistory } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 // Own modules
 import { Speak } from "./modules/Speak";
@@ -25,18 +26,27 @@ function importAll(r: __WebpackModuleApi.RequireContext) {
 }
 
 function App() {
+  return (
+    <Router>
+      <Content />
+    </Router>
+  );
+}
+
+function Content() {
   const location = useLocation();
+  const measurementId = "G-MW2MMVNHCB";
 
   useEffect(() => {
-    const trackingId = "G-MW2MMVNHCB";
+    initializeGA(measurementId);
     if (!window.gtag) return;
-    if (!trackingId) {
+    if (!measurementId) {
       console.log(
-        "Tracking not enabled, as `trackingId` was not given and there is no `GA_MEASUREMENT_ID`."
+        "Tracking not enabled, as `measurementId` was not given and there is no `GA_MEASUREMENT_ID`."
       );
       return;
     }
-    window.gtag("config", trackingId, { page_path: location.pathname });
+    window.gtag("config", measurementId, { page_path: location.pathname });
   }, [location]);
 
   const l = useMemo((): { lang: "en" | "ja"; disp: string } => {
@@ -110,6 +120,10 @@ function App() {
                   src={images.get("./" + value.images)}
                   onClick={() => {
                     Speak(value.name, l.lang);
+                    sendEventGA("click_flag", {
+                      name: value.name,
+                      lang: l.lang,
+                    });
                   }}
                 ></input>
                 <div>{value.name}</div>
@@ -117,6 +131,10 @@ function App() {
                   data-uk-icon="icon:play; ratio: 1.5"
                   onClick={() => {
                     Speak(value.name, l.lang);
+                    sendEventGA("play_speak", {
+                      name: value.name,
+                      lang: l.lang,
+                    });
                   }}
                 />
               </div>
@@ -136,3 +154,28 @@ export default App;
 const getNameByLang = <S, T extends keyof S>(obj: S, key: T) => {
   return obj[key];
 };
+
+function initializeGA(measurementId: string) {
+  // load gtag.js:  https://developers.google.com/analytics/devguides/collection/gtagjs
+  let script1 = document.createElement("script");
+  script1.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+  script1.async = true;
+  document.body.appendChild(script1);
+
+  let script2 = document.createElement("script");
+  // プレーンテキスト、グローバルな window.gtag 関数を定義するため
+  script2.text = `window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${measurementId}');`;
+  document.body.appendChild(script2);
+}
+
+type EventLabel = "click_flag" | "play_speak";
+
+function sendEventGA(label: EventLabel, value?: {}) {
+  window.gtag("event", "click", {
+    event_label: label,
+    event_value: JSON.stringify(value),
+  });
+}
