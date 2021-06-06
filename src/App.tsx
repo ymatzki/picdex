@@ -156,6 +156,7 @@ const getNameByLang = <S, T extends keyof S>(obj: S, key: T) => {
 };
 
 function initializeGA(measurementId: string) {
+  if (!isProduction()) return;
   // load gtag.js:  https://developers.google.com/analytics/devguides/collection/gtagjs
   let script1 = document.createElement("script");
   script1.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
@@ -174,8 +175,13 @@ function initializeGA(measurementId: string) {
 type EventLabel = "click_flag" | "play_speak";
 
 function sendEventGA(label: EventLabel, value?: {}) {
+  if (!isProduction()) return;
   window.gtag("event", "click", {
     event_label: label,
     event_value: JSON.stringify(value),
   });
+}
+
+function isProduction() {
+  return process.env.NODE_ENV === "production";
 }
