@@ -1,8 +1,8 @@
 // 3rd Party modules
-import React, { useMemo, useEffect, useRef, ReactElement } from "react";
+import React, { useMemo, useEffect } from "react";
 import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
-import { Link, useLocation, useHistory } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
 // Own modules
