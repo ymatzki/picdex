@@ -11,6 +11,8 @@ jobs:
         check-latest: true
         cache: 'yarn'
     - run: | 
-      yarn
-      yarn build
-      yarn deploy
+        yarn
+        yarn build
+        yarn deploy
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
