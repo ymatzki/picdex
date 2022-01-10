@@ -143,7 +143,7 @@ function Content() {
         </div>
       </div>
       <div className="uk-padding-small uk-text-center">
-        <small>&copy; 2021 ymatzki All Rights Reserved</small>
+        <small>&copy; 2022 ymatzki All Rights Reserved</small>
       </div>
     </div>
   );
