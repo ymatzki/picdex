@@ -1,8 +1,0 @@
-name: Deploy
-on: [push]
-jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-      - run: yarn build
-      - run: yarn deploy
